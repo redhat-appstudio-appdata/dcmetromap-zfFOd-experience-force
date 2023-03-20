@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dc-metro-map-lsmm
+  namespace: shebert-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:bc1fea9a9c83742fd5bba8504c4249fd691fe8950630615f464338932ffed68b
+        name: container-image
+        resources: {}
+status: {}
