@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-lsmm
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:zfFOd-dc-metro-map-lsmm
+      - image: quay.io/redhat-appstudio/user-workload@sha256:bc1fea9a9c83742fd5bba8504c4249fd691fe8950630615f464338932ffed68b
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
