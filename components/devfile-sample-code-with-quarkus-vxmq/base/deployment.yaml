@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-code-with-quarkus-vxmq
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:7f5c4c2eb136729e333fdf4a681967a929e1453afd2616de13d5fd5b85b5f243
+      - image: quay.io/redhat-appstudio/user-workload@sha256:529676e61ee41498a9dc0159a1e4c340543bd8df0df4b62e9503f860a5965e24
         name: my-java-quarkus
         ports:
         - containerPort: 8081
