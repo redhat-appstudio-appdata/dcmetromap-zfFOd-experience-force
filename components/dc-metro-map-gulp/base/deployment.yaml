@@ -26,7 +26,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-gulp
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads/shebert-tenant/dcmetromap/dc-metro-map-gulp@sha256:cda571e6f6b1f299dba2c9925c5e880b210a746496ede4fbe7a84f6842180323
         name: my-nodejs
         ports:
         - containerPort: 3001
