@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/shebert-tenant/dcmetromap/dc-metro-map@sha256:36877185508db35f38ea3065605a66c31d2490c3ee3d8acba06cbfa51029e26a
+      - image: quay.io/redhat-user-workloads/shebert-tenant/dcmetromap/dc-metro-map@sha256:360eb94cccbe76effe083967b69b37ab6e0a72897304b1d5db5bfcf7a456b029
         name: my-nodejs
         resources: {}
 status: {}
