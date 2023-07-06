@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: dc-metro-map
     app.kubernetes.io/part-of: dcmetromap
-  name: dc-metro-map3knq
+  name: dc-metro-maphu5d
 spec:
   port:
     targetPort: 8080
